@@ -11,5 +11,6 @@ def line(katz_deli)
   end
   puts "The line is currently: " + linec.join
 end
+end
 
     
