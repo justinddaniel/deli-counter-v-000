@@ -6,7 +6,7 @@ def line(katz_deli)
   if katz_deli.length < 1
     puts "The line is currently empty."
   else katz_deli.each do |i|
-    linec.push("#{n}. #{i}")
+    linec.push("#{n}. #{i} ")
     n+=1
   end
   puts "The line is currently: " + linec.join
