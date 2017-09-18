@@ -18,3 +18,13 @@ def take_a_number(katz_deli, name)
   n = katz_deli.length
   puts "Welcome, #{name}. You are number #{n} in line."
 end
+
+def now_serving(katz_deli)
+  name = katz_deli.first
+  if katz_deli.length < 1
+    puts "There is nobody waiting to be served!"
+  else puts "Currently serving #{name}."
+  end
+  katz_deli.pop 
+end
+  
